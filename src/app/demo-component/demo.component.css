@@ -1,0 +1,9 @@
+.page.page-demo-component Label {
+    text-align: center;
+}
+.page.page-demo-component TextView {
+    border-width: 1;
+    border-color: black;
+    border-radius: 5;
+    padding: 5;
+}

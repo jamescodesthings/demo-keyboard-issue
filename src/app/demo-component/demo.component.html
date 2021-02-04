@@ -1,0 +1,9 @@
+<ScrollView orientation="vertical">
+    <StackLayout class="page page-demo-component">
+        <Label class="h1" text="Demo"></Label>
+        <Label text="This one works:"></Label>
+        <TextView [(ngModel)]="textValue" [keyboardType]="undefined"></TextView>
+        <Label text="This one doesn't:"></Label>
+        <TextView [(ngModel)]="textValue" [keyboardType]="null"></TextView>
+    </StackLayout>
+</ScrollView>
